@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinanceHubConnection", "BinanceHubConnection\BinanceHubConnection.csproj", "{3742D5E2-B8E2-4360-B63B-BEF8EC1F6CF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbConnection", "DbConnection\DbConnection.csproj", "{0D84C4F5-602E-484B-928C-1FCEE469D040}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinanceProcessor", "BinanceProcessor\BinanceProcessor.csproj", "{43300FE3-625A-40F3-9E87-FF21A0204A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{BC6958A9-2276-463B-B717-8ACDE8EE073E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3742D5E2-B8E2-4360-B63B-BEF8EC1F6CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3742D5E2-B8E2-4360-B63B-BEF8EC1F6CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3742D5E2-B8E2-4360-B63B-BEF8EC1F6CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3742D5E2-B8E2-4360-B63B-BEF8EC1F6CF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D84C4F5-602E-484B-928C-1FCEE469D040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D84C4F5-602E-484B-928C-1FCEE469D040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D84C4F5-602E-484B-928C-1FCEE469D040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D84C4F5-602E-484B-928C-1FCEE469D040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43300FE3-625A-40F3-9E87-FF21A0204A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43300FE3-625A-40F3-9E87-FF21A0204A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43300FE3-625A-40F3-9E87-FF21A0204A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43300FE3-625A-40F3-9E87-FF21A0204A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC6958A9-2276-463B-B717-8ACDE8EE073E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6958A9-2276-463B-B717-8ACDE8EE073E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6958A9-2276-463B-B717-8ACDE8EE073E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6958A9-2276-463B-B717-8ACDE8EE073E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21169A4F-8DF8-4403-830F-091946BE52C8}
+	EndGlobalSection
+EndGlobal
